@@ -1,0 +1,10 @@
+# Getestet mit Python 3.12 auf macOS (Apple Silicon)
+torch==2.7.1
+torchvision==0.22.1
+transformers==4.57.1
+timm==1.0.31
+safetensors==0.8.0
+pillow==12.3.0
+jupyterlab==4.6.6
+ipykernel==6.31.0
+ipywidgets

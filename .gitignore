@@ -1,0 +1,10 @@
+# Modell-Cache (wird beim ersten Lauf automatisch heruntergeladen)
+model_cache/
+# Python / Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+# IDE / macOS
+.idea/
+.vscode/
+.DS_Store

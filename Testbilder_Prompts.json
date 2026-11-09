@@ -1,0 +1,23 @@
+{
+  "generation_method": "Built-in image generation tool",
+  "synthetic": true,
+  "annotation_status": "No verified bounding-box ground truth. Requested counts in prompts are not annotations.",
+  "prompts": [
+    {
+      "file": "test_nebel_daemmerung.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: synthetic test photograph for pedestrian object detection in a university robotics notebook. Create ONE highly realistic unannotated landscape dashcam photograph, approximately 1536x1024, looking down a normal European residential street at blue-hour dawn in moderate fog. Exactly three real adult pedestrians: one at the left curb around 12 metres away in a dark raincoat, one crossing in the middle around 22 metres away, one small figure on the right pavement around 40 metres away. Fog reduces contrast progressively with distance but their human shapes remain visibly interpretable. Parked compact cars, subtle sensor grain, ordinary imperfect exposure and subdued natural colours, physically plausible anatomy and perspective. No other people, no accident, no danger or gore, no artistic lighting, no boxes, no labels, no watermark. This must resemble an ordinary real camera exposure, not polished CGI or a cinematic illustration."
+    },
+    {
+      "file": "test_verdeckung_lieferwagen.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: synthetic difficult test photograph for pedestrian object detection. Create ONE realistic unannotated landscape driver-eye camera photograph, approximately 1536x1024, on an everyday European urban street in overcast daylight. Exactly three adult pedestrians at different distances, realistically partially occluded: a person emerging from behind the rear of a parked white delivery van with head, one shoulder, a strip of torso and lower legs visible; a second person partly behind a narrow roadside tree with most body visible; a third pedestrian farther back on the pavement whose lower body is hidden behind a parked hatchback. The view must show enough of each to recognize three separate people, but not their complete bodies. Natural street geometry and texture, moderately cluttered background, slight dashcam compression, physically correct human anatomy. No other humans, no human faces on posters, no collision, no bounding boxes or captions, no watermark. Normal documentary realism, not stylized, not a video game."
+    },
+    {
+      "file": "test_regen_gegenlicht.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: synthetic challenging pedestrian-detection test image. Create ONE unannotated realistic landscape dashcam photograph, approximately 1536x1024, from a stopped vehicle on a city street just after sunset in rain. Exactly three adult pedestrians moving across a crossing at about 10 to 25 metres, one in a dark jacket, one holding an ordinary opaque umbrella that partly hides the head and shoulders, one in a grey coat at the farther side of the crossing. Wet asphalt and modest glare from an oncoming car's low headlights reduce contrast. A few out-of-focus rain droplets near the edge of the windscreen and mild realistic motion blur, but people remain recognizable on close inspection. Lighting must preserve useful shadow detail rather than turn the image completely black. Realistic automotive camera exposure, imperfect grain and optical reflections. No additional people, no collision, no visual annotations, no text overlays, no logos or watermarks."
+    },
+    {
+      "file": "test_distanz_schaufenster.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: synthetic pedestrian detector stress-test photograph with a distractor. Create ONE realistic unannotated wide landscape daytime dashcam image, approximately 1536x1024, on an ordinary shopping street. Exactly three actual adult people, all relatively distant and modest in image size: one on the left pavement about 35 metres away, two on the right pavement at about 45 and 55 metres, separate bodies with naturally overlapping street clutter. On the near right edge a clearly inanimate full-sized white faceless store mannequin stands behind a shop window, with a visible rigid base and glossy plastic hands; it should plausibly distract a human detector without being mistaken for a fourth actual human by careful inspection. Parked cars, shop windows, lampposts and normal street texture. Moderate natural midday contrast, slightly imperfect consumer camera sharpness. No additional humans or human posters, no boxes, no labels, no watermark, no staged cinematic composition. Photographic realism with consistent scale and anatomy."
+    }
+  ]
+}
